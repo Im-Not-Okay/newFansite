@@ -27,7 +27,7 @@
 		}
 
 	body{
-		background-color: #000000;
+		background-color:black; 
 		margin:0;
 		font-family: Geneva, Tahoma, sans-serif;
 		font-size: 16px;
@@ -116,5 +116,10 @@
 		font-size: 10px; 
 		text-transform: uppercase;
 		padding-top: 20px;
-		}
-
+	}
+	#videos{
+		display:flex;
+		justify-content: center;
+		flex-direction: row;
+		justify-content: space-around;
+	}
